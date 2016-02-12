@@ -5,7 +5,8 @@ export ZSH=/opt/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bira"
+ZSH_THEME="bureau"
+#ZSH_THEME="bira"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -80,5 +81,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias spam.sh='sudo /home/anco/spam.sh'
 alias su='sudo su'
-alias upgrade='sudo /usr/bin/aptitude-curses update && sudo /usr/bin/aptitude-curses full-upgrade'
+alias upgrade='sudo /usr/bin/aptitude-curses update ; sudo /usr/bin/aptitude-curses full-upgrade ; sudo checkrestart'
 #upgrade
